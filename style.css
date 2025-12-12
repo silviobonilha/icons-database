@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+/* Editor styles */
+#lesson-list .lesson-item {
+    background-color: #afb8c7;
+}
+
+#lesson-list .lesson-item.active {
+    background-color: #2d3647;
+    border-left: 3px solid #6c7a8d;
+}
+
+#lesson-list .lesson-item:hover {
+    background-color: #999ca1;
+}
+/* JSON editor layout */
+@media (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+/* Report view styles */
+#reports-container h3 {
+    border-bottom: 2px solid #d10000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#reports-container .whitespace-pre-line {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #a8a3a3;
+}
+::-webkit-scrollbar-thumb {
+    background: #d10000;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a80000;
+}
+

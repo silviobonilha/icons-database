@@ -222,7 +222,7 @@ saveToLocalStorage();
             const newId = lessonsData.length > 0 ? Math.max(...lessonsData.map(l => l.id)) + 1 : 1;
             const newLesson = {
                 id: newId,
-                text: `Aula: Nova Aula\n\nDigite seu conteúdo aqui...`
+                text: `Aula: .\n\nReport...`
             };
             
             lessonsData.push(newLesson);
@@ -242,7 +242,7 @@ saveToLocalStorage();
             const dataStr = JSON.stringify(lessonsData, null, 2);
             const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
             
-            const exportFileDefaultName = 'aulas-biblia.json';
+            const exportFileDefaultName = 'report-mapleB.json';
             
             const linkElement = document.createElement('a');
             linkElement.setAttribute('href', dataUri);

@@ -178,7 +178,7 @@ saveToLocalStorage();
             
             // Extract title (first line) and content (rest)
             const lines = lesson.text.split('\n');
-            const title = lines[0].startsWith('Aula:') ? lines[0].substring(5).trim() : lines[0].trim();
+            const title = lines[0].startsWith('Report:') ? lines[0].substring(5).trim() : lines[0].trim();
             const content = lines.slice(1).join('\n').trim();
             
             lessonTitle.value = title;
@@ -191,7 +191,7 @@ saveToLocalStorage();
             // Update lesson data
             const title = lessonTitle.value.trim();
             const content = lessonContent.value.trim();
-            currentLesson.text = `Aula: ${title}\n${content}`;
+            currentLesson.text = `Report: ${title}\n${content}`;
             
             renderLessonList();
             

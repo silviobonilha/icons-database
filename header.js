@@ -7,14 +7,13 @@ class CustomHeader extends HTMLElement {
 
 <img
   src="https://raw.githubusercontent.com/silviobonilha/database/refs/heads/image/logo-educ.png"
-  alt="logotipo"
-  class="w-24 h-auto">
-                       
-                  <h1> Relatório em Sala de Aula </h1>
-    
-                    
-                </div>
+  alt="logotipo" </span>  
 
+                <p>
+                    <span style="font-size: 24px;">
+                        class="w-24 h-auto">    <span> Relatório em Sala de Aula</span>
+                </p>
+                </div>
                 <div class="px-4 pb-3 flex justify-center">
                     <nav class="space-x-4">
                         <a href="index.html" class="hover:text-red-200 transition-colors">Início</a>

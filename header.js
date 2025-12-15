@@ -6,8 +6,8 @@ class CustomHeader extends HTMLElement {
                 <div class="text-center px-4 py-3">
                  <img src="images/logo-educ.png" alt="logotipo" class="w-1/3 h-1/4 object-cover">
                     <!-- a href="index.html" class="text-2xl font-bold hover:text-red-200 transition-colors block" -->
-                        Relatório em Sala de Aula
-                    </a>
+                  <h2>      Relatório em Sala de Aula </h2>
+                    <!--/a -->
                 </div>
 
                 <div class="px-4 pb-3 flex justify-center">

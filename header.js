@@ -13,7 +13,7 @@ class CustomHeader extends HTMLElement {
 <img
   src="https://raw.githubusercontent.com/silviobonilha/database/refs/heads/image/logo-educ.png"
   alt="Logotipo Educacional"
-  class="w-8 h-8 mx-auto mb-4"
+  class="w-24 h-24 mx-auto mb-4"
 />
 
                 
